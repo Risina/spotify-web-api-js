@@ -711,8 +711,6 @@ var SpotifyWebApi = (function () {
       requestData = {
         url: _baseUri + '/me/playlists'
       };
-      callback = options;
-      options = userId;
     }
     return _checkParamsAndPerformRequest(requestData, options, callback);
   };
